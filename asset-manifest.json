@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/indigo-roots/static/css/main.f855e6bc.css",
+    "main.js": "/indigo-roots/static/js/main.18d54260.js",
+    "static/js/453.b1a5e7ba.chunk.js": "/indigo-roots/static/js/453.b1a5e7ba.chunk.js",
+    "static/media/logo.svg": "/indigo-roots/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/indigo-roots/index.html",
+    "main.f855e6bc.css.map": "/indigo-roots/static/css/main.f855e6bc.css.map",
+    "main.18d54260.js.map": "/indigo-roots/static/js/main.18d54260.js.map",
+    "453.b1a5e7ba.chunk.js.map": "/indigo-roots/static/js/453.b1a5e7ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.18d54260.js"
+  ]
+}
