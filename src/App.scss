@@ -1,0 +1,146 @@
+$indigo: #460c61;
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff; /* White text for contrast */
+}
+
+/* Navbar Styling */
+nav {
+  background-color: $indigo; /* Dark background for navbar */
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff0; /* Hover color */
+}
+
+/* Header Styling */
+header.parallax {
+  // background-image: url('logo.svg'); /* Replace with your image */fxv fdx vbc 21zaq24AZSz
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  padding: 20px;
+  color: black;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #333;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.service-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: $indigo;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: white;
+  gap: 8px;
+
+  svg {
+    fill: white;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: $indigo;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Testimonial Section Styling */
+#testimonials {
+  background-color: #333; /* Slightly transparent white background */
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a card-like effect */
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.testimonial footer {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  background: #333;
+}
